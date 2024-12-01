@@ -1,0 +1,176 @@
+{
+    "metadata": {
+        ".zattrs": {},
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "coords/.zarray": {
+            "chunks": [
+                125000
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4000000
+            ],
+            "zarr_format": 2
+        },
+        "coords/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "coords"
+            ]
+        },
+        "date/.zarray": {
+            "chunks": [
+                1
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dimension_separator": ".",
+            "dtype": "<U10",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                64
+            ],
+            "zarr_format": 2
+        },
+        "date/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "date"
+            ]
+        },
+        "timestamp/.zarray": {
+            "chunks": [
+                1,
+                125000
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dimension_separator": ".",
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                64,
+                4000000
+            ],
+            "zarr_format": 2
+        },
+        "timestamp/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "date",
+                "coords"
+            ]
+        },
+        "type/.zarray": {
+            "chunks": [
+                1,
+                62500
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dimension_separator": ".",
+            "dtype": "<U5",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                64,
+                4000000
+            ],
+            "zarr_format": 2
+        },
+        "type/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "date",
+                "coords"
+            ]
+        },
+        "value/.zarray": {
+            "chunks": [
+                1,
+                125000
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dimension_separator": ".",
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                64,
+                4000000
+            ],
+            "zarr_format": 2
+        },
+        "value/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "date",
+                "coords"
+            ]
+        },
+        "vol/.zarray": {
+            "chunks": [
+                1,
+                125000
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dimension_separator": ".",
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                64,
+                4000000
+            ],
+            "zarr_format": 2
+        },
+        "vol/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "date",
+                "coords"
+            ]
+        }
+    },
+    "zarr_consolidated_format": 1
+}
